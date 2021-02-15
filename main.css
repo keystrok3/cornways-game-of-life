@@ -1,0 +1,31 @@
+:root {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    margin: 2em auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+
+.grid td {
+    height: 3vh;
+    width: 3vh;
+    border: 1px solid black;
+}
+
+[data-state="true"] {
+    background-color: black;
+}
+
+[data-state="false"] {
+    background-color: white;
+}
